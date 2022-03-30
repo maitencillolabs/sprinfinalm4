@@ -1,6 +1,11 @@
 /* first container izq*/
 /* first container izq*/
 
+/*  sm: 576px,
+    md: 768px,
+    lg: 992px, */
+  
+
 .main__contenedor {
     position: relative;
     height: 60px;
@@ -17,7 +22,12 @@
                 width: 200px;
                 height: 35px;
                 margin-top: 2px;
-
+                @media (max-width:768px) {
+                    width: 150px;
+                }
+                @media (max-width:576px) {
+                    width: 100px;
+                }
             }
         }
 
@@ -30,6 +40,12 @@
                 width: 200px;
                 height: 35px;
                 margin-top: 2px;
+                @media (max-width:768px) {
+                    width: 150px;
+                }
+                @media (max-width:576px) {
+                    width: 100px;
+                }
             }
         }
 
@@ -42,6 +58,12 @@
                 width: 200px;
                 height: 35px;
                 margin-top: 2px;
+                @media (max-width:768px) {
+                    width: 150px;
+                }
+                @media (max-width:576px) {
+                    width: 100px;
+                }
 
             }
         }
@@ -68,13 +90,15 @@
 .third__container {
 
     position: relative;
-    height: 500px;
+   
 }
 
 .bienvenida {
     text-align: center;
     color: red;
 }
+
+/* diagrama flujo */
 
 .diagrama__flujo {
     text-align: center;
