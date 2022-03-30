@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <script src="https://kit.fontawesome.com/4226f07e97.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+
+  <!-- HEADER -->
+
+  <header>
+    <ul class="nav">
+      <li class="nav-item">
+        <a href="usuario.html" class="nav-link"  data-toggle="tooltip" data-placement="bottom"
+          title="Click para ir a Usuario">Usuario</a>
+      </li>
+      <li class="nav-item">
+        <a href="index.html" class="nav-link" aria-current="page"  data-toggle="tooltip" data-placement="bottom"
+          title="Click para ir a Inicio">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contador.html" data-toggle="tooltip" data-placement="bottom"
+          title="Click para ir a Contactanos">Contador</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" data-toggle="tooltip" data-placement="bottom"
+          title="Click para ir a Ofertas Relampagos">Ofertas Relampagos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" data-toggle="tooltip" data-placement="bottom"
+          title="Click para ir a Preguntas Frecuentes">Preguntas Frecuentes</a>
+      </li>
+    </ul>
+
+    <div class="banner">
+      <h1>Tecno Chile</h1>
+
+    </div>
+  </header>
+
+
+  <!-- CARRUSEL  -->
+
+
+<div class="container contenedor__carru">
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./imagenes/shop1.jpg" class="d-block w-80" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagenes/shop2.jpg" class="d-block w-80" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/shop3.jpg" class="d-block w-80" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+
+  <!-- MAIN  -->
+
+  <div class="container-fluid main__contenedor ">
+    <div class="row main__contenedor__fila">
+
+      <div class="col-4 main__contenedor__fila--izq">
+
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn__texto btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Conocenos!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Quienes somos?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Somos los que somos y los que no, ni por asomo.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 main__contenedor__fila--cent">
+
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn__texto btn btn-primary" data-bs-toggle="modal"
+          data-bs-target="#exampleModal2">
+          Visitanos!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Nuestras tiendas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Tenemos muchas tiendas!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 main__contenedor__fila--der">
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn__texto btn btn-primary" data-bs-toggle="modal"
+          data-bs-target="#exampleModal3">
+          Consultas!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Preguntanos lo que quieras.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ¿Quieres hacernos una pregunta?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second container -->
+
+  <div class="container-fluid second__container">
+    <div class="row">
+      <div class="col-12 second__container--mini"><img src="./imagenes/mini-banner.jpeg" alt=""></div>
+    </div>
+  </div>
+
+  <div class="container-fluid third__container">
+    <div class="row class ">
+
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/shop1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Parlantes con ofertas y descuento compra online en Chile. Encuentra la mayor variedad
+              de parlantes sin salir de casa.
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/shop2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Venta de televisores Smart TV a los mejores precios y con la tecnología que buscas. Si
+              quieres disfrutar de una experiencia Multimedia HD. ¡Elige el tuyo!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/shop3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Buscas un sofá y sillones nuevos? Tenemos distintos diseños y colores que se adaptarán
+              perfectamente al estilo de tu living o sala de estar.
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./imagenes/shop4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Envíos Gratis en el día ✓ Compre Tv Lcd en cuotas sin interés! Conozca nuestras
+              increíbles ofertas y promociones en millones de productos.
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+
+  <section id="contacto">
+    <footer id="footer" class="container-fluid mt-3" style="background-color: rgb(41, 8, 228)">
+      <h3 class="pt-3 d-flex justify-content-center text-white"> Guillermo Berna | Jose Francisco Martínez | Jorge
+        Millán | Javiera Rodríguez | 2022</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 hidden-xs">
+
+            <h4 class="pt-1 fw-bold text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Contáctanos</h4>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Correo:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Escribe tus consultas aquí:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="d-flex justify-content-end col-lg-8 pt-1 ">
+            <a href="https://www.instagram.com" target="_blank"><i
+                class="fab fa-instagram fa-2x px-3 text-white"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i
+                class="fab fa-twitter-square fa-2x px-3 text-white"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i
+                class="fab fa-facebook-square fa-2x px-3 text-white"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </section>
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>

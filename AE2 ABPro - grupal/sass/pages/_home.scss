@@ -1,0 +1,86 @@
+/* first container izq*/
+/* first container izq*/
+
+.main__contenedor {
+    position: relative;
+    height: 60px;
+
+    &__fila {
+        height: 40px;
+
+        &--izq {
+
+            position: relative;
+            text-align: center;
+
+            .btn__texto {
+                width: 200px;
+                height: 35px;
+                margin-top: 2px;
+
+            }
+        }
+
+        &--cent {
+
+            position: relative;
+            text-align: center;
+
+            .btn__texto {
+                width: 200px;
+                height: 35px;
+                margin-top: 2px;
+            }
+        }
+
+        &--der {
+
+            position: relative;
+            text-align: center;
+
+            .btn__texto {
+                width: 200px;
+                height: 35px;
+                margin-top: 2px;
+
+            }
+        }
+    }
+}
+
+/* second container */
+/* second container */
+
+.second__container {
+    position: relative;
+    height: 150px;
+
+    &--mini {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+/* third container */
+/* third container */
+
+.third__container {
+
+    position: relative;
+    height: 500px;
+}
+
+.bienvenida {
+    text-align: center;
+    color: red;
+}
+
+.diagrama__flujo {
+    text-align: center;
+
+    &--img {
+        width: 1200px;
+    }
+
+}

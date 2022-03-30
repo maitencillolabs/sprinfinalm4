@@ -1,0 +1,21 @@
+.nav{
+    background-color:#2a52d3;   
+    position: fixed;
+    z-index: 99;
+}
+.nav-link{
+    color: white;
+}
+
+.banner{
+   background-image: url("../imagenes/tienda-de-tecnologia.jpg") ;
+   text-align: center;
+   font-size: 50px;
+   background-size: cover;
+   background-position: center;
+   padding: 150px 0;
+}
+h1{
+    color: rgb(0, 0, 255);
+    font-size: 70px;
+}

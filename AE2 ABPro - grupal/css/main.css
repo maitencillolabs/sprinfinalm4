@@ -1,0 +1,149 @@
+/* Lista de todos los import */
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          
+}
+
+/* pagina predefinida */
+.contenedor__carru {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  background-color: #2a52d3;
+}
+
+#white {
+  color: white;
+}
+
+.nav {
+  background-color: #2a52d3;
+  position: fixed;
+  z-index: 99;
+}
+
+.nav-link {
+  color: white;
+}
+
+.banner {
+  background-image: url("../imagenes/tienda-de-tecnologia.jpg");
+  text-align: center;
+  font-size: 50px;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+h1 {
+  color: blue;
+  font-size: 70px;
+}
+
+/* first container izq*/
+/* first container izq*/
+.main__contenedor {
+  position: relative;
+  height: 60px;
+}
+
+.main__contenedor__fila {
+  height: 40px;
+}
+
+.main__contenedor__fila--izq {
+  position: relative;
+  text-align: center;
+}
+
+.main__contenedor__fila--izq .btn__texto {
+  width: 200px;
+  height: 35px;
+  margin-top: 2px;
+}
+
+.main__contenedor__fila--cent {
+  position: relative;
+  text-align: center;
+}
+
+.main__contenedor__fila--cent .btn__texto {
+  width: 200px;
+  height: 35px;
+  margin-top: 2px;
+}
+
+.main__contenedor__fila--der {
+  position: relative;
+  text-align: center;
+}
+
+.main__contenedor__fila--der .btn__texto {
+  width: 200px;
+  height: 35px;
+  margin-top: 2px;
+}
+
+/* second container */
+/* second container */
+.second__container {
+  position: relative;
+  height: 150px;
+}
+
+.second__container--mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* third container */
+/* third container */
+.third__container {
+  position: relative;
+  height: 500px;
+}
+
+.bienvenida {
+  text-align: center;
+  color: red;
+}
+
+.diagrama__flujo {
+  text-align: center;
+}
+
+.diagrama__flujo--img {
+  width: 1200px;
+}
+
+.containerContador {
+  background-color: black;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 400px;
+  width: auto;
+}
+
+
+/* ^ Fin lista de todos los import ^ */
+/*# sourceMappingURL=main.css.map */
