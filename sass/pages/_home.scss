@@ -84,3 +84,31 @@
     }
 
 }
+
+//  sm: 576px,
+//  md: 768px,
+//  lg: 992px,
+
+@media (max-width:992px) {
+    .diagrama__flujo {
+        &--img{
+            width: 800px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .diagrama__flujo {
+        &--img{
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .diagrama__flujo {
+        &--img{
+            width: 400px;
+        }
+    }
+}
