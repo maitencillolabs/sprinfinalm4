@@ -191,6 +191,13 @@ h1 {
     width: 400px;
   }
 }
+.containerContador {
+  background-color: black;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 400px;
+  width: auto;
+}
 
 /* ^ Fin lista de todos los import ^ */
 /*# sourceMappingURL=main.css.map */
